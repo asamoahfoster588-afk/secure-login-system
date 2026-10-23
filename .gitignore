@@ -1,0 +1,72 @@
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+config/secrets.php
+
+#Local Vercel configuration.vercel/
+
+# Dependencies/vendor/
+
+# Database backups and exports
+*.sql
+!database/*.sql
+*.sql.gz
+*.dump
+*.backup
+*.bak
+database/backups/
+database/dumps/
+backups/
+
+#Logs and temporary files
+*.log
+.DS_Store
+
+
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+config/secrets.php
+
+# Local database connection configuration if it contains credentials
+# Prefer moving credentials to environment variables.
+config/database.php
+
+# Database backups and exports
+*.sql
+!database/*.sql
+*.sql.gz
+*.dump
+*.backup
+*.bak
+database/backups/
+database/dumps/
+backups/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# AWS credentials and local backup configuration
+.aws/
+pgpass.conf
+*.pem
+*.key
+
+# PHP dependencies (if managed by Composer)
+vendor/
+
+# Vercel local configuration
+.vercel/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary setup scripts
+create-first-admin.php
