@@ -70,3 +70,14 @@ Thumbs.db
 
 # Temporary setup scripts
 create-first-admin.php
+
+# Local configuration backups
+config/database.local-backup.php
+config/secrets.local-backup.php
+# Allow environment-aware application configuration to be committed.
+!config/database.php
+!config/secrets.php
+
+# Keep local credentials and backups private.
+config/database.local-backup.php
+config/secrets.local-backup.php

@@ -1,0 +1,21 @@
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+
+config/database.php
+config/secrets.php
+config/database.local-backup.php
+config/secrets.local-backup.php
+
+vendor/
+.vercel/
+backups/
+*.sql.gz
+*.dump
+*.backup
+
+# Include environment-aware application configuration.
+!config/database.php
+!config/secrets.php

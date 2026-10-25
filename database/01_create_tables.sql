@@ -14,6 +14,7 @@ CREATE TABLE roles (
             'auditor'
         )
     )
+);
 
 -- 2. User accounts
 CREATE TABLE users (
